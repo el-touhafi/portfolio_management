@@ -419,18 +419,18 @@ class PortfolioManagement(PortfolioConstruction):
 # p.compute()
 # print(p.optim_sharpe)
 #
-p = PortfolioManagement(
-    ["AAPL", "GOOG", "TSLA", "MSFT", "AMZN", "META"],
-    "2023-01-01",
-    "2024-07-11",
-    1000,
-    "markovitz",
-    0,
-    "^GSPC",
-)
-p.compute()
-print(p.optim_sharpe)
-p.performance_plot()
+# p = PortfolioManagement(
+#     ["AAPL", "GOOG", "TSLA", "MSFT", "AMZN", "META"],
+#     "2023-01-01",
+#     "2024-07-11",
+#     1000,
+#     "markovitz",
+#     0,
+#     "^GSPC",
+# )
+# p.compute()
+# print(p.optim_sharpe)
+# p.performance_plot()
 # p = PortfolioManagement(
 #     ["AAPL", "GOOG", "TSLA", "MSFT", "AMZN", "META"],
 #     "2020-01-01",
