@@ -476,18 +476,18 @@ class ValueatRisk(PortfolioManagement):
         return p
 
 
-p = ValueatRisk(
-    ["AAPL", "GOOG", "TSLA", "MSFT", "AMZN", "META"],
-    "2024-01-01",
-    "2024-07-11",
-    1000,
-    'nomal',
-    0,
-    "^GSPC",
-    0.05,
-    "sharpe",
-)
-p.compute()
+# p = ValueatRisk(
+#     ["AAPL", "GOOG", "TSLA", "MSFT", "AMZN", "META"],
+#     "2024-01-01",
+#     "2024-07-11",
+#     1000,
+#     'nomal',
+#     0,
+#     "^GSPC",
+#     0.05,
+#     "sharpe",
+# )
+# p.compute()
 """
 P = value_at_risk(['AAPL','GOOG','TSLA','MSFT','AMZN','A','AA','META'],'2023-01-01','2023-11-11',0.05,[0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.3])
 #print(P.N_VC_value_at_risk())
